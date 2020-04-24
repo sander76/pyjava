@@ -1,0 +1,15 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "pyjava"
+author = "Sander Teunissen"
+author-email = "no_mail@nomail.com"
+home-page = "https://github.com/sander76/pyjava"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
+[tool.flit.metadata.requires-extra]
+test = [
+	"pytest>=2.7.3",
+]
